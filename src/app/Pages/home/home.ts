@@ -10,6 +10,5 @@ import { MenuBar } from "../../components/menu-bar/menu-bar";
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
-export class Home {
 
-}
+export class Home {}
