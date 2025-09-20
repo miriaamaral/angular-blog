@@ -1,20 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://wallpapers.com/images/hd/iron-man-technology-1943-x-1103-wallpaper-kmc4uq7cjmlsf6eb.jpg"
-    alt=""
-    height="265px"
-    srcset="">
+    <img src={{photoCover()}} alt="" height="265px" srcset="">
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular!</a></h1>
+    <h1><a href="#">{{cardTitle()}}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        {{cardDescription()}}
       </a>
     </p>
   </div>

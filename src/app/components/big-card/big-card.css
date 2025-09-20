@@ -16,14 +16,14 @@
 }
 
 .big-card__description {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .big-card__description p a {
-  color: gray;
+  color: grey;
 }
 
 .big-card__photo img {
-width: 100%;
-min-width: 400px;
+  width: 100%;
+  min-width: 400px;
 }
